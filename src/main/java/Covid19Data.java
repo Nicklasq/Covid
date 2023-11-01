@@ -19,6 +19,62 @@ public class Covid19Data {
 
     }
 
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
+    public String getAldersgruppe() {
+        return aldersgruppe;
+    }
+
+    public void setAldersgruppe(String aldersgruppe) {
+        this.aldersgruppe = aldersgruppe;
+    }
+
+    public int getPositive() {
+        return positive;
+    }
+
+    public void setPositive(int positive) {
+        this.positive = positive;
+    }
+
+    public int getDøde() {
+        return døde;
+    }
+
+    public void setDøde(int døde) {
+        this.døde = døde;
+    }
+
+    public int getIndlagteIintensiv() {
+        return indlagteIintensiv;
+    }
+
+    public void setIndlagteIintensiv(int indlagteIintensiv) {
+        this.indlagteIintensiv = indlagteIintensiv;
+    }
+
+    public int getIndlagte() {
+        return indlagte;
+    }
+
+    public void setIndlagte(int indlagte) {
+        this.indlagte = indlagte;
+    }
+
+    public String getDato() {
+        return dato;
+    }
+
+    public void setDato(String dato) {
+        this.dato = dato;
+    }
+
     @Override
     public String toString() {
         return "region " + region + ", aldersgruppe" + aldersgruppe + ", positive " + positive + ", døde " + døde
